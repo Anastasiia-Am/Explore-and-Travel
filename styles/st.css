@@ -18,6 +18,15 @@ body {
 	max-width: 1600px;
 	gap: 25px;
 }
+.section04,.section05{
+	display: grid;
+    grid-template-columns: 750px 850px;
+	justify-content: center;
+	justify-items: center;
+	max-width: 1600px;
+	margin-top: 214px;
+	margin-left
+}
 .view{
 	text-decoration:none;
 	font-family: 'Inter', sans-serif;
@@ -294,15 +303,7 @@ select{
 	top: 2416px;
 }
 /*section04*/
-.section04,.section05{
-	display: grid;
-    grid-template-columns: 750px 850px;
-	justify-content: center;
-	justify-items: center;
-	max-width: 1600px;
-	margin-top: 214px;
-	
-}
+
 .section04_left{
 	display: flex;
 	align-items: flex-start;
